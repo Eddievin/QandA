@@ -9,4 +9,8 @@ class QuestionsController extends Controller
     public function index(){
         return view('index');
     }
+
+    public function phpQuestions(){
+        return view('pages.phpQuestions');
+    }
 }

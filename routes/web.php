@@ -17,5 +17,8 @@ Route::get('/', 'QuestionsController@index');
 Route::get('/index.html', 'QuestionsController@index');
 
 
+Route::get('/faq.html', 'QuestionsController@phpQuestions');
+
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

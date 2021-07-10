@@ -213,6 +213,13 @@
 
 					</li>
 
+                    <li class="dropdown">
+						<a href="faq.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-library"></span><span class="mtext">Php</span>
+						</a>
+
+					</li>
+
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-edit2"></span><span class="mtext">Forms</span>
@@ -227,15 +234,7 @@
 							<li><a href="image-dropzone.html">Image Dropzone</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Tables</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="basic-table.html">Basic Tables</a></li>
-							<li><a href="datatable.html">DataTables</a></li>
-						</ul>
-					</li>
+
 					<li>
 						<a href="calendar.html" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-calendar1"></span><span class="mtext">Calendar</span>
