@@ -10,7 +10,7 @@ class QuestionsController extends Controller
         return view('index');
     }
 
-    public function phpQuestions(){
-        return view('pages.phpQuestions');
+    public function phpquestions(){
+        return view('pages.phpquestions');
     }
 }

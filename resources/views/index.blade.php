@@ -23,18 +23,11 @@
 	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-119386393-1');
-	</script>
 </head>
 <body>
     <!-- Pre loader Section -->
-	<div class="pre-loader">
+	{{-- <div class="pre-loader">
 		<div class="pre-loader-box">
 			<div class='loader-progress' id="progress_div">
 				<div class='bar' id='bar1'></div>
@@ -44,11 +37,11 @@
 				QandA Loading...
 			</div>
 		</div>
-	</div>
+	</div> --}}
     <!-- End Pre loader Section -->
 
     <!--  NavBar Section -->
-	<div class="header">
+	<div class="header header-dark">
 		<div class="header-left">
 			<div class="menu-icon dw dw-menu"></div>
             <!--  Search Section -->
@@ -194,8 +187,7 @@
     <!-- Left Side Bar -->
 	<div class="left-side-bar">
 		<div class="brand-logo">
-			<a href="index.html">
-
+			<a href="/">
                 <h1  class="dark-logo">QandA</h1>
                 <h1  class="light-logo">QandA</h1>
 			</a>
@@ -207,14 +199,14 @@
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
 					<li class="dropdown">
-						<a href="index.html" class="dropdown-toggle no-arrow" >
+						<a href="/" class="dropdown-toggle no-arrow" >
 							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
 						</a>
 
 					</li>
 
                     <li class="dropdown">
-						<a href="faq.html" class="dropdown-toggle no-arrow">
+						<a href="/pages/phpquestions" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-library"></span><span class="mtext">Php</span>
 						</a>
 
@@ -410,7 +402,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xl-3 mb-30">
+				<div href="/pages/phpquestions" class="col-xl-3 mb-30">
 					<div class="card-box height-100-p widget-style1">
 						<div class="d-flex flex-wrap align-items-center">
 							<div class="progress-data">

@@ -14,10 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'QuestionsController@index');
-Route::get('/index.html', 'QuestionsController@index');
 
 
-Route::get('/faq.html', 'QuestionsController@phpQuestions');
+Route::get('/pages/phpquestions', 'QuestionsController@phpquestions');
 
 
 
