@@ -211,6 +211,24 @@
 						</a>
 
 					</li>
+                    <li class="dropdown">
+						<a href="/pages/phpquestions" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-library"></span><span class="mtext">linux</span>
+						</a>
+
+					</li>
+                    <li class="dropdown">
+						<a href="/pages/phpquestions" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-library"></span><span class="mtext">IOT</span>
+						</a>
+
+					</li>
+                    <li class="dropdown">
+						<a href="/pages/phpquestions" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-library"></span><span class="mtext">mySQL</span>
+						</a>
+
+					</li>
 
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
