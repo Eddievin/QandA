@@ -256,7 +256,7 @@
 
                     <li class="dropdown">
 						<a href="/pages/phpquestions" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-library"></span><span class="mtext">linux</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Linux</span>
 						</a>
 
 					</li>
