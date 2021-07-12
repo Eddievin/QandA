@@ -303,12 +303,12 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="title">
-                                <h4>Php Questions and Answers</h4>
+                                <h4>IOT Questions and Answers</h4>
                             </div>
                             <nav aria-label="breadcrumb" role="navigation">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">PHP</li>
+                                    <li class="breadcrumb-item active" aria-current="page">IOT</li>
                                 </ol>
                             </nav>
                         </div>
@@ -320,86 +320,90 @@
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
-                                    What is PHP?
+                                    What is the Internet Of Things (IoT)?
                                 </button>
                             </div>
                             <div id="faq1" class="collapse show" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP is a recursive acronym for "PHP: Hypertext Preprocessor". PHP is a server side
-                                    scripting language that is embedded in HTML. It is used to manage dynamic content,
-                                    databases, session tracking, even build entire e-commerce sites.
+                                    Internet of Things (IoT) is a network of physical objects or people called "things"
+                                    that are embedded with software, electronics, network, and sensors that allow these
+                                    objects to collect and exchange data. The goal of IoT is to extend to internet
+                                    connectivity from standard devices like computer, mobile, tablet to relatively dumb
+                                    devices like a toaster.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
-                                    What do the initials of PHP stand for?
+                                    What industries can benefit from IoT?
                                 </button>
                             </div>
                             <div id="faq2" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP means PHP: Hypertext Preprocessor.
+                                    A wide range of industries can benefit from IoT, including healthcare, agriculture,
+                                    manufacturing, automotive, public transportation, utilities and energy,
+                                    environmental, smart cities, smart homes and consumer devices.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq3">
-                                    What is the function mysql_pconnect() useful for?
+                                    What is meant by a smart city in IoT?
                                 </button>
                             </div>
                             <div id="faq3" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>mysql_pconnect() ensure a persistent connection to the database, it means that
-                                        the connection does not close when the PHP script ends.</p>
-                                    <p class="mb-0">mysql_pconnect() ensure a persistent connection to the database, it
-                                        means that the connection does not close when the PHP script ends.</p>
+                                    A smart city is an urban area that uses IoT technologies to connect city services
+                                    and enhance their delivery. Smart cities can help reduce crime, optimize public
+                                    transportation, improve air quality, streamline traffic flow, lower energy use,
+                                    manage infrastructure, reduce health risks, simplify parking, manage utilities and
+                                    improve a variety of other processes.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq4">
-                                    What’s the difference between the include() and require() functions?
+                                    What is an embedded system on an IoT device?
                                 </button>
                             </div>
                             <div id="faq4" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    They both include a specific file but on require the process exits with a fatal
-                                    error if the file can’t be included, while include statement may still pass and jump
-                                    to the next step in the execution.
+                                    An embedded system is a combination of hardware, software and firmware that's
+                                    configured for a specific purpose. It's essentially a small computer that can be
+                                    embedded in mechanical or electrical systems, such as automobiles, industrial
+                                    equipment, medical devices, smart speakers or digital watches. An embedded system
+                                    might be programmable or have fixed functionality.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
-                                    How can we get the IP address of the client?
+                                    What is a sensor in an IoT device?
                                 </button>
                             </div>
                             <div id="faq5" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    This question might show you how playful and creative the candidate is because there
-                                    are many options. $_SERVER["REMOTE_ADDR"]; is the easiest solution, but the
-                                    candidate can write x line scripts for this question.
+                                    A sensor is a physical object that detects and responds to input from its
+                                    surrounding environment, essentially reading the environment for information. For
+                                    example, a sensor that measures temperatures within a piece of heavy machinery will
+                                    detect and respond to the temperature within that machinery, as opposed to
+                                    registering the outside temperature.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq6">
-                                    Explain the syntax for 'foreach' loop.
+                                    What is a thermocouple sensor?
                                 </button>
                             </div>
                             <div id="faq6" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The foreach statement is used to loop through arrays. For each pass the value of
-                                        the current array element is assigned to $value and the array pointer is moved
-                                        by one and in the next pass next element will be processed.</p>
-                                    <p class="mb-0">The foreach statement is used to loop through arrays. For each pass
-                                        the value of the current array element is assigned to $value and the array
-                                        pointer is moved by one and in the next pass next element will be processed.</p>
+                                    A thermocouple sensor is a common type of sensor used to measure temperature.
                                 </div>
                             </div>
                         </div>
