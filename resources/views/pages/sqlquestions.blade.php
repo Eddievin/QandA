@@ -303,12 +303,12 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="title">
-                                <h4>Php Questions and Answers</h4>
+                                <h4>SQL Questions and Answers</h4>
                             </div>
                             <nav aria-label="breadcrumb" role="navigation">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">PHP</li>
+                                    <li class="breadcrumb-item active" aria-current="page">SQL</li>
                                 </ol>
                             </nav>
                         </div>
@@ -320,86 +320,88 @@
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
-                                    What is PHP?
+                                    What is SQL?
                                 </button>
                             </div>
                             <div id="faq1" class="collapse show" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP is a recursive acronym for "PHP: Hypertext Preprocessor". PHP is a server side
-                                    scripting language that is embedded in HTML. It is used to manage dynamic content,
-                                    databases, session tracking, even build entire e-commerce sites.
+                                    SQL stands for Structured Query Language , and it is used to communicate with the
+                                    Database. This is a standard language used to perform tasks such as retrieval,
+                                    updation, insertion and deletion of data from a database.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
-                                    What do the initials of PHP stand for?
+                                    What is DBMS?
                                 </button>
                             </div>
                             <div id="faq2" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP means PHP: Hypertext Preprocessor.
+                                    A Database Management System (DBMS) is a program that controls creation, maintenance
+                                    and use of a database. DBMS can be termed as File Manager that manages data in a
+                                    database rather than saving it in file systems.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq3">
-                                    What is the function mysql_pconnect() useful for?
+                                    What is RDBMS?
                                 </button>
                             </div>
                             <div id="faq3" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>mysql_pconnect() ensure a persistent connection to the database, it means that
-                                        the connection does not close when the PHP script ends.</p>
-                                    <p class="mb-0">mysql_pconnect() ensure a persistent connection to the database, it
-                                        means that the connection does not close when the PHP script ends.</p>
+                                    RDBMS stands for Relational Database Management System. RDBMS store the data into
+                                    the collection of tables, which is related by common fields between the columns of
+                                    the table. It also provides relational operators to manipulate the data stored into
+                                    the tables.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq4">
-                                    What’s the difference between the include() and require() functions?
+                                    What is a Database?
                                 </button>
                             </div>
                             <div id="faq4" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    They both include a specific file but on require the process exits with a fatal
-                                    error if the file can’t be included, while include statement may still pass and jump
-                                    to the next step in the execution.
+                                    Database is nothing but an organized form of data for easy access, storing,
+                                    retrieval and managing of data. This is also known as structured form of data which
+                                    can be accessed in many ways.
+
+                                    Example: School Management Database, Bank Management Database.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
-                                    How can we get the IP address of the client?
+                                    What are tables and Fields?
                                 </button>
                             </div>
                             <div id="faq5" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    This question might show you how playful and creative the candidate is because there
-                                    are many options. $_SERVER["REMOTE_ADDR"]; is the easiest solution, but the
-                                    candidate can write x line scripts for this question.
+                                    A table is a set of data that are organized in a model with Columns and Rows.
+                                    Columns can be categorized as vertical, and Rows are horizontal. A table has
+                                    specified number of column called fields but can have any number of rows which is
+                                    called record.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq6">
-                                    Explain the syntax for 'foreach' loop.
+                                    What is a primary key?
                                 </button>
                             </div>
                             <div id="faq6" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The foreach statement is used to loop through arrays. For each pass the value of
-                                        the current array element is assigned to $value and the array pointer is moved
-                                        by one and in the next pass next element will be processed.</p>
-                                    <p class="mb-0">The foreach statement is used to loop through arrays. For each pass
-                                        the value of the current array element is assigned to $value and the array
-                                        pointer is moved by one and in the next pass next element will be processed.</p>
+                                    A primary key is a combination of fields which uniquely specify a row. This is a
+                                    special kind of unique key, and it has implicit NOT NULL constraint. It means,
+                                    Primary key values cannot be NULL.
                                 </div>
                             </div>
                         </div>
