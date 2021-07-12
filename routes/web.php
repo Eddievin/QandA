@@ -18,6 +18,12 @@ Route::get('/', 'QuestionsController@index');
 
 Route::get('/pages/phpquestions', 'QuestionsController@phpquestions');
 
+Route::get('/pages/linuxquestions', 'QuestionsController@linuxquestions');
+
+Route::get('/pages/iotquestions', 'QuestionsController@iotquestions');
+
+Route::get('/pages/sqlquestions', 'QuestionsController@sqlquestions');
+
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

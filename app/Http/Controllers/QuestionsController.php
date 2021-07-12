@@ -13,4 +13,16 @@ class QuestionsController extends Controller
     public function phpquestions(){
         return view('pages.phpquestions');
     }
+
+    public function iotquestions(){
+        return view('pages.iotquestions');
+    }
+
+    public function linuxquestions(){
+        return view('pages.linuxquestions');
+    }
+
+    public function sqlquestions(){
+        return view('pages.sqlquestions');
+    }
 }
