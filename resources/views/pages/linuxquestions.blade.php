@@ -303,12 +303,12 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="title">
-                                <h4>Php Questions and Answers</h4>
+                                <h4>Linux Questions and Answers</h4>
                             </div>
                             <nav aria-label="breadcrumb" role="navigation">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">PHP</li>
+                                    <li class="breadcrumb-item active" aria-current="page">LINUX</li>
                                 </ol>
                             </nav>
                         </div>
@@ -320,86 +320,85 @@
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
-                                    What is PHP?
+                                    What is Linux?
                                 </button>
                             </div>
                             <div id="faq1" class="collapse show" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP is a recursive acronym for "PHP: Hypertext Preprocessor". PHP is a server side
-                                    scripting language that is embedded in HTML. It is used to manage dynamic content,
-                                    databases, session tracking, even build entire e-commerce sites.
+                                    Linux is an operating system based on UNIX and was first introduced by Linus Torvalds.
+                                    It is based on the Linux Kernel and can run on different hardware platforms manufactured by Intel, MIPS, HP, IBM, SPARC, and Motorola.
+                                    Another popular element in Linux is its mascot, a penguin figure named Tux.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
-                                    What do the initials of PHP stand for?
+                                    What is the difference between UNIX and LINUX?
                                 </button>
                             </div>
                             <div id="faq2" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    PHP means PHP: Hypertext Preprocessor.
+                                    Unix originally began as a propriety operating system from Bell Laboratories, which later on spawned into different commercial versions.
+                                    On the other hand, Linux is free, open source and intended as a non-propriety operating system for the masses.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq3">
-                                    What is the function mysql_pconnect() useful for?
+                                    What is BASH?
                                 </button>
                             </div>
                             <div id="faq3" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>mysql_pconnect() ensure a persistent connection to the database, it means that
-                                        the connection does not close when the PHP script ends.</p>
-                                    <p class="mb-0">mysql_pconnect() ensure a persistent connection to the database, it
-                                        means that the connection does not close when the PHP script ends.</p>
+                                   BASH is short for Bourne Again SHell.
+                                        It was written by Steve Bourne as a replacement to the original Bourne Shell (represented by /bin/sh).
+                                    It combines all the features from the original version of Bourne Shell,
+                                        plus additional functions to make it easier and more convenient to use.
+                                        It has since been adapted as the default shell for most systems running Linux.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq4">
-                                    What’s the difference between the include() and require() functions?
+                                    What is Linux Kernel?
                                 </button>
                             </div>
                             <div id="faq4" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    They both include a specific file but on require the process exits with a fatal
-                                    error if the file can’t be included, while include statement may still pass and jump
-                                    to the next step in the execution.
+                                    The Linux Kernel is a low-level systems software whose main role is to manage hardware resources for the user.
+                                    It is also used to provide an interface for user-level interaction.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
-                                    How can we get the IP address of the client?
+                                    What is the advantage of open source?
                                 </button>
                             </div>
                             <div id="faq5" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    This question might show you how playful and creative the candidate is because there
-                                    are many options. $_SERVER["REMOTE_ADDR"]; is the easiest solution, but the
-                                    candidate can write x line scripts for this question.
+                                    Open source allows you to distribute your software, including source codes freely to anyone who is interested.
+                                     People would then be able to add features and even debug and correct errors that are in the source code.
+                                     They can even make it run better and then redistribute these enhanced source code freely again.
+                                     This eventually benefits everyone in the community.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq6">
-                                    Explain the syntax for 'foreach' loop.
+                                    Does it help for a Linux system to have multiple desktop environments installed?
                                 </button>
                             </div>
                             <div id="faq6" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The foreach statement is used to loop through arrays. For each pass the value of
-                                        the current array element is assigned to $value and the array pointer is moved
-                                        by one and in the next pass next element will be processed.</p>
-                                    <p class="mb-0">The foreach statement is used to loop through arrays. For each pass
-                                        the value of the current array element is assigned to $value and the array
-                                        pointer is moved by one and in the next pass next element will be processed.</p>
+                                    In general, one desktop environment, like KDE or Gnome, is good enough to operate without issues.
+                                     It's all a matter of preference for the user, although the system allows switching from one environment to another.
+                                     Some programs will work in one environment and not work on the other, so it could also be considered a factor in selecting which environment to use.
                                 </div>
                             </div>
                         </div>
