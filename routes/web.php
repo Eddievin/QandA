@@ -26,6 +26,8 @@ Route::get('/pages/sqlquestions', 'QuestionsController@sqlquestions');
 
 Route::get('/pages/about', 'QuestionsController@about');
 
+Route::get('/pages/sitemap', 'QuestionsController@sitemap');
+
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -163,7 +163,7 @@
                     </li>
                     <li class="dropdown">
                         <a href="/pages/linuxquestions" class="dropdown-toggle no-arrow">
-                            <span class="micon dw dw-library"></span><span class="mtext">linux</span>
+                            <span class="micon dw dw-library"></span><span class="mtext">Linux</span>
                         </a>
 
                     </li>
@@ -180,7 +180,7 @@
 
                     </li>
                     <li>
-                        <a href="sitemap.html" class="dropdown-toggle no-arrow">
+                        <a href="/pages/sitemap" class="dropdown-toggle no-arrow">
                             <span class="micon dw dw-diagram"></span><span class="mtext">Sitemap</span>
                         </a>
                     </li>
