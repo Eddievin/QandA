@@ -28,6 +28,8 @@ Route::get('/pages/about', 'QuestionsController@about');
 
 Route::get('/pages/sitemap', 'QuestionsController@sitemap');
 
+Route::get('/pages/profile', 'QuestionsController@profile');
+
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

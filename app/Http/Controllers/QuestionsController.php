@@ -33,4 +33,8 @@ class QuestionsController extends Controller
     public function sitemap(){
         return view('pages.sitemap');
     }
+
+    public function profile(){
+        return view('pages.profile');
+    }
 }
