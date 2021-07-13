@@ -211,16 +211,10 @@
                     <li>
                         <div class="sidebar-small-cap">Extra</div>
                     </li>
-                    <li>
-                        <a href="javascript:;" class="dropdown-toggle">
-                            <span class="micon dw dw-edit-2"></span><span class="mtext">Documentation</span>
+                    <li class="dropdown">
+                        <a href="/pages/about" class="dropdown-toggle no-arrow">
+                            <span class="micon dw dw-paper-plane1"></span><span class="mtext">About Us</span>
                         </a>
-                        <ul class="submenu">
-                            <li><a href="introduction.html">Introduction</a></li>
-                            <li><a href="getting-started.html">Getting Started</a></li>
-                            <li><a href="color-settings.html">Color Settings</a></li>
-                            <li><a href="third-party-plugins.html">Third Party Plugins</a></li>
-                        </ul>
                     </li>
 
                 </ul>
