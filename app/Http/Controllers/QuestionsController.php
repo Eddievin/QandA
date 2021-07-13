@@ -25,4 +25,8 @@ class QuestionsController extends Controller
     public function sqlquestions(){
         return view('pages.sqlquestions');
     }
+
+    public function about(){
+        return view('pages.about');
+    }
 }
