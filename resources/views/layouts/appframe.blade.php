@@ -111,7 +111,7 @@
 
 
                         <!-- Authentication -->
-                        <div class="dropdown-item" href="/pages/login"><i class="dw dw-logout"></i>
+                        <div class="dropdown-item" href="/login"><i class="dw dw-logout"></i>
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
 

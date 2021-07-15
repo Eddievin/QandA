@@ -37,4 +37,8 @@ class QuestionsController extends Controller
     public function profile(){
         return view('pages.profile');
     }
+
+    public function welcome(){
+        return view('welcome');
+    }
 }

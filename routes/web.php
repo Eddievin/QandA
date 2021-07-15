@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'QuestionsController@index');
+Route::get('/', 'QuestionsController@welcome');
+Route::get('/dashboard', 'QuestionsController@index');
 
 
 Route::get('/pages/phpquestions', 'QuestionsController@phpquestions');
@@ -38,3 +39,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/welcome', function () {
+//     return view('welcome');
+// })->name('welcome');
