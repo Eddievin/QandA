@@ -25,6 +25,7 @@
                             <div class="progress-data">
                                 <div id="chart"></div>
                             </div>
+                            {{ dd(Auth::user()) }}
                             <div class="widget-data">
                                 <div class="h4 mb-0">PHP</div>
                                 <div class="weight-600 font-14">Questions</div>
