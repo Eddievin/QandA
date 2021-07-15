@@ -149,7 +149,7 @@
 
     <div class="left-side-bar">
         <div class="brand-logo">
-            <a href="/">
+            <a href="/dashboard">
                 <h1 class="dark-logo">QandA</h1>
                 <h1 class="light-logo">QandA</h1>
             </a>
@@ -161,7 +161,7 @@
             <div class="sidebar-menu">
                 <ul id="accordion-menu">
                     <li class="dropdown">
-                        <a href="/" class="dropdown-toggle no-arrow">
+                        <a href="/dashboard" class="dropdown-toggle no-arrow">
                             <span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
                         </a>
 
