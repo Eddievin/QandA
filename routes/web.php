@@ -32,6 +32,8 @@ Route::get('/pages/sitemap', 'QuestionsController@sitemap');
 
 Route::get('/pages/profile', 'QuestionsController@profile');
 
+Route::get('/pages/add', 'QuestionsController@add');
+
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

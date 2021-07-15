@@ -41,4 +41,8 @@ class QuestionsController extends Controller
     public function welcome(){
         return view('welcome');
     }
+
+    public function add(){
+        return view('pages.add');
+    }
 }

@@ -209,6 +209,11 @@
                             <span class="micon dw dw-paper-plane1"></span><span class="mtext">About Us</span>
                         </a>
                     </li>
+                    <li class="dropdown">
+                        <a href="/pages/add" class="dropdown-toggle no-arrow">
+                            <span class="micon dw dw-paper-plane1"></span><span class="mtext">Add New</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
