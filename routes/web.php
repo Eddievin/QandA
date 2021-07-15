@@ -34,6 +34,10 @@ Route::get('/pages/profile', 'QuestionsController@profile');
 
 Route::get('/pages/add', 'QuestionsController@add');
 
+Route::post('/pages/add', 'AddController@store');
+
+
+
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
