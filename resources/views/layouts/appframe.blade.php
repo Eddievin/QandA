@@ -108,7 +108,21 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
                         <a class="dropdown-item" href="/pages/profile"><i class="dw dw-user1"></i> Profile</a>
-                        <a class="dropdown-item" href="/pages/login"><i class="dw dw-logout"></i> Log Out</a>
+
+
+                        <!-- Authentication -->
+                        <div class="dropdown-item" href="/pages/login"><i class="dw dw-logout"></i>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-jet-dropdown-link href="{{ route('logout') }}"
+                                     onclick="event.preventDefault();
+                                            this.closest('form').submit();">
+                                {{ __('Log Out') }}
+                            </x-jet-dropdown-link>
+                        </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
