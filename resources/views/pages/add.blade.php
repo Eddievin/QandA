@@ -25,7 +25,7 @@
                     <div id="accordion">
 
                         <!--  Modal Form -->
-                        <form method="post" action="/pages/add">
+                        <form method="post" action="/pages/add" name='question'>
                         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
                             aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -45,12 +45,12 @@
 
                                         </div>
 
-                                        <div class="md-form">
+                                        {{-- <div class="md-form">
                                             <i class="icon-copy ion-checkmark-circled"></i>
                                             <textarea type="text" id="form8" class="md-textarea form-control"
                                                 rows="4"></textarea>
                                             <label data-error="wrong" data-success="right" for="form8">Answer</label>
-                                        </div>
+                                        </div> --}}
 
                                     </div>
                                     <div class="modal-footer d-flex justify-content-center">
@@ -82,6 +82,34 @@
                             </div>
                         </div>
 
+
+                        <!--  Code test -->
+                        <form method="POST" action="/pages/add">
+                            <div class="form-group" >
+                                @csrf
+                                <label for="description">Task Description</label>
+                                <input class="form-control" name="description" />
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary"type="submit">Create</button>
+                            </div>
+                        </form>
+                        <!--  Code test -->
+
+                        @foreach ($tasks as $task)
+                        <div class="card">
+                            <div class="card-header">
+                            <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
+                                {{ $task->description }}
+                            </button>
+                            </div>
+                            <div id="faq5" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    A thermocouple sensor is a common type of sensor used to measure temperature.
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
 
                     </div>
 

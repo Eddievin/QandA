@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 class QuestionsController extends Controller
@@ -43,6 +44,13 @@ class QuestionsController extends Controller
     }
 
     public function add(){
-        return view('pages.add');
+
+        $tasks = Task::all();
+
+
+        return view('pages.add', [
+            'tasks' => $tasks,
+        ]);
     }
+
 }

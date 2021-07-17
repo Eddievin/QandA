@@ -34,7 +34,7 @@ Route::get('/pages/profile', 'QuestionsController@profile');
 
 Route::get('/pages/add', 'QuestionsController@add');
 
-Route::post('/pages/add', 'AddController@store');
+Route::post('/pages/add', 'TasksController@store');
 
 
 
