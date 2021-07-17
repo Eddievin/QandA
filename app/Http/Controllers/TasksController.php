@@ -10,6 +10,7 @@ class TasksController extends Controller
     public function store(){
         $task = Task::create([
             'description' => request('description'),
+            'answer' => request('answer'),
         ]);
         return redirect('/pages/add');
     }
