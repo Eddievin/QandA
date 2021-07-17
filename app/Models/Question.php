@@ -13,3 +13,5 @@ class Question extends Model
         'question',
     ];
 }
+
+

@@ -90,6 +90,11 @@
                                 <label for="description">Task Description</label>
                                 <input class="form-control" name="description" />
                             </div>
+                            <div class="form-group" >
+                                @csrf
+                                <label for="answer">Answer</label>
+                                <input class="form-control" name="answer" />
+                            </div>
                             <div class="form-group">
                                 <button class="btn btn-primary"type="submit">Create</button>
                             </div>
@@ -105,11 +110,30 @@
                             </div>
                             <div id="faq5" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    A thermocouple sensor is a common type of sensor used to measure temperature.
+                                    {{ $task->answer }}
                                 </div>
                             </div>
                         </div>
                         @endforeach
+
+                        <br />
+                        <br />
+                        <br />
+                <!--  form with 2 fields -->
+                        <form method="POST" action="/pages/add">
+                            <div class="form-group" >
+                                @csrf
+                                <label for="question">Question</label>
+                                <input class="form-control" name="question" />
+                            </div>
+                            <div class="form-group" >
+                                <label for="answer">Answer</label>
+                                <input class="form-control" name="answer" />
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary"type="submit">Create</button>
+                            </div>
+                        </form>
 
                     </div>
 
