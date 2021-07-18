@@ -24,7 +24,12 @@ class QuestionsController extends Controller
     }
 
     public function sqlquestions(){
-        return view('pages.sqlquestions');
+        $tasks = Task::all();
+
+
+        return view('pages.sqlquestions', [
+            'tasks' => $tasks,
+        ]);
     }
 
     public function about(){
