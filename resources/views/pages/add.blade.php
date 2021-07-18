@@ -25,7 +25,7 @@
                     <div id="accordion">
 
                         <!--  Modal Form -->
-                        <form method="post" action="/pages/add" name='question'>
+                        <form method="POST" action="/pages/add">
                         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
                             aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -40,21 +40,21 @@
 
                                         <div class="md-form mb-5">
                                             <i class="icon-copy ion-help-circled"></i>
-                                            <input type="text" id="form32" class="form-control validate">
+                                            <input type="text" class="form-control validate" name="description">
                                             <label data-error="wrong" data-success="right" for="form32">Question</label>
 
                                         </div>
 
-                                        {{-- <div class="md-form">
+                                        <div class="md-form">
                                             <i class="icon-copy ion-checkmark-circled"></i>
-                                            <textarea type="text" id="form8" class="md-textarea form-control"
+                                            <textarea type="text" name="answer" class="md-textarea form-control"
                                                 rows="4"></textarea>
                                             <label data-error="wrong" data-success="right" for="form8">Answer</label>
-                                        </div> --}}
+                                        </div>
 
                                     </div>
                                     <div class="modal-footer d-flex justify-content-center">
-                                        <button type="submit" class="btn btn-outline-success">Add</button>
+                                        <button class="btn btn-primary"type="submit">Add</button>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                         </div>
 
 
-                        <!--  Code test -->
+                        <!--  Working part of the form Code test -->
                         <form method="POST" action="/pages/add">
                             <div class="form-group" >
                                 @csrf
@@ -99,7 +99,7 @@
                                 <button class="btn btn-primary"type="submit">Create</button>
                             </div>
                         </form>
-                        <!--  Code test -->
+                        <!--  Working cards from the form -->
 
                         @foreach ($tasks as $task)
                         <div class="card">
