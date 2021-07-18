@@ -22,49 +22,35 @@
                 </div>
                 <div class="faq-wrap">
                     <h4 class="mb-20 h4 text-blue">Revision Q and A</h4>
-                    <form method="POST" action="/pages/add">
-                        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
-                            aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header text-center">
-                                        @csrf
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body mx-3">
-
-                                        <div class="md-form mb-5">
-                                            <i class="icon-copy ion-help-circled"></i>
-                                            <input type="text" class="form-control validate" name="description">
-                                            <label data-error="wrong" data-success="right" for="form32">Question</label>
-
-                                        </div>
-
-                                        <div class="md-form">
-                                            <i class="icon-copy ion-checkmark-circled"></i>
-                                            <textarea type="text" name="answer" class="md-textarea form-control"
-                                                rows="4"></textarea>
-                                            <label data-error="wrong" data-success="right" for="form8">Answer</label>
-                                        </div>
-
-                                    </div>
-                                    <div class="modal-footer d-flex justify-content-center">
-                                        <button class="btn btn-primary"type="submit">Add</button>
-                                    </div>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
+                                    What is SQL?
+                                </button>
+                            </div>
+                            <div id="faq1" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    SQL stands for Structured Query Language , and it is used to communicate with the
+                                    Database. This is a standard language used to perform tasks such as retrieval,
+                                    updation, insertion and deletion of data from a database.
                                 </div>
                             </div>
                         </div>
-                    </form>
-
-                        <div class="text-center">
-                                <button class="btn btn-success btn-lg btn-block" data-toggle="modal"
-                                data-target="#modalContactForm">Add a New Question</button>
-                                <br />
-                                <br />
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
+                                    What is DBMS?
+                                </button>
+                            </div>
+                            <div id="faq2" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    A Database Management System (DBMS) is a program that controls creation, maintenance
+                                    and use of a database. DBMS can be termed as File Manager that manages data in a
+                                    database rather than saving it in file systems.
+                                </div>
+                            </div>
                         </div>
-
                         @foreach ($tasks as $task)
                         <div class="card">
                             <div class="card-header">
@@ -83,6 +69,8 @@
                         <br />
                         <br />
                         <br />
+
+                    </div>
 
 
                 </div>
