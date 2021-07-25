@@ -91,11 +91,11 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="h5">UI Elements</h5>
+									<h5 class="h5">Software Engineering</h5>
 									<ul>
-										<li><a href="ui-buttons.html">Buttons</a></li>
-										<li><a href="ui-cards.html">Cards</a></li>
-										<li><a href="ui-cards-hover.html">Cards Hover</a></li>
+										<li><a href="ui-buttons.html">Operating Systems</a></li>
+										<li><a href="ui-cards.html">Artificial Intelligence</a></li>
+										<li><a href="ui-cards-hover.html">Algorithms and data structures</a></li>
 										<li><a href="ui-modals.html">Modals</a></li>
 										<li><a href="ui-tabs.html">Tabs</a></li>
 										<li><a href="ui-tooltip-popover.html">Tooltip &amp; Popover</a></li>
