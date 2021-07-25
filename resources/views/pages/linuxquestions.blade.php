@@ -24,6 +24,51 @@
                     <h4 class="mb-20 h4 text-blue">Revision Q and A</h4>
                     <div id="accordion">
 
+                         <!--  Modal Form -->
+                         <form method="POST" action="/pages/add">
+                            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+                                            @csrf
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body mx-3">
+
+                                            <div class="md-form mb-5">
+                                                <i class="icon-copy ion-help-circled"></i>
+                                                <input type="text" class="form-control validate" name="description">
+                                                <label data-error="wrong" data-success="right" for="form32">Question</label>
+
+                                            </div>
+
+                                            <div class="md-form">
+                                                <i class="icon-copy ion-checkmark-circled"></i>
+                                                <textarea type="text" name="answer" class="md-textarea form-control"
+                                                    rows="4"></textarea>
+                                                <label data-error="wrong" data-success="right" for="form8">Answer</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn btn-primary"type="submit">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                            <div class="text-center">
+                                    <button class="btn btn-success btn-lg btn-block" data-toggle="modal"
+                                    data-target="#modalContactForm">Add a New Question</button>
+                                    <br />
+                                    <br />
+                            </div>
+                            <!--  Modal Form -->
+
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
@@ -40,23 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq3">
-                                    What is BASH?
-                                </button>
-                            </div>
-                            <div id="faq3" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    BASH is short for Bourne Again SHell.
-                                    It was written by Steve Bourne as a replacement to the original Bourne Shell
-                                    (represented by /bin/sh).
-                                    It combines all the features from the original version of Bourne Shell,
-                                    plus additional functions to make it easier and more convenient to use.
-                                    It has since been adapted as the default shell for most systems running Linux.
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq4">
@@ -71,41 +100,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
-                                    What is the advantage of open source?
-                                </button>
-                            </div>
-                            <div id="faq5" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    Open source allows you to distribute your software, including source codes freely to
-                                    anyone who is interested.
-                                    People would then be able to add features and even debug and correct errors that are
-                                    in the source code.
-                                    They can even make it run better and then redistribute these enhanced source code
-                                    freely again.
-                                    This eventually benefits everyone in the community.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq6">
-                                    Does it help for a Linux system to have multiple desktop environments installed?
-                                </button>
-                            </div>
-                            <div id="faq6" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    In general, one desktop environment, like KDE or Gnome, is good enough to operate
-                                    without issues.
-                                    It's all a matter of preference for the user, although the system allows switching
-                                    from one environment to another.
-                                    Some programs will work in one environment and not work on the other, so it could
-                                    also be considered a factor in selecting which environment to use.
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
 
 
