@@ -96,17 +96,17 @@
 										<li><a href="ui-buttons.html">Operating Systems</a></li>
 										<li><a href="ui-cards.html">Artificial Intelligence</a></li>
 										<li><a href="ui-cards-hover.html">Algorithms and data structures</a></li>
-										<li><a href="ui-modals.html">Modals</a></li>
-										<li><a href="ui-tabs.html">Tabs</a></li>
-										<li><a href="ui-tooltip-popover.html">Tooltip &amp; Popover</a></li>
-										<li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
-										<li><a href="ui-notification.html">Notification</a></li>
-										<li><a href="ui-timeline.html">Timeline</a></li>
-										<li><a href="ui-progressbar.html">Progressbar</a></li>
-										<li><a href="ui-typography.html">Typography</a></li>
-										<li><a href="ui-list-group.html">List group</a></li>
-										<li><a href="ui-range-slider.html">Range slider</a></li>
-										<li><a href="ui-carousel.html">Carousel</a></li>
+										<li><a href="ui-modals.html">Computer networks</a></li>
+										<li><a href="ui-tabs.html">Embaded systems design</a></li>
+										<li><a href="ui-tooltip-popover.html">The software Process</a></li>
+										<li><a href="ui-sweet-alert.html">Information security</a></li>
+										<li><a href="ui-notification.html">Web information systems</a></li>
+										<li><a href="ui-timeline.html">Compilers and interpreters</a></li>
+										<li><a href="ui-progressbar.html">Machine learning</a></li>
+										<li><a href="ui-typography.html">Advanced security</a></li>
+										<li><a href="ui-list-group.html">Data mining</a></li>
+										<li><a href="ui-range-slider.html">OOP</a></li>
+										<li><a href="ui-carousel.html">Version control</a></li>
 									</ul>
 								</div>
 							</div>
