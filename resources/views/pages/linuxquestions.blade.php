@@ -102,6 +102,23 @@
                         </div>
 
 
+
+                        @foreach ($tasks as $task)
+                        <div class="card">
+                            <div class="card-header">
+                            <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
+                                {{ $task->description }}
+                            </button>
+                            </div>
+                            <div id="faq5" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    {{ $task->answer }}
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+
+
                     </div>
 
 

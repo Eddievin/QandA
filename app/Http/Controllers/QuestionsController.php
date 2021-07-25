@@ -20,7 +20,12 @@ class QuestionsController extends Controller
     }
 
     public function linuxquestions(){
-        return view('pages.linuxquestions');
+        $tasks = Task::all();
+
+
+        return view('pages.linuxquestions', [
+            'tasks' => $tasks,
+        ]);
     }
 
     public function sqlquestions(){
