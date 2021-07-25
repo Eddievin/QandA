@@ -26,68 +26,42 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="h5">Home</h5>
+									<h5 class="h5">Languages</h5>
 									<ul>
-										<li><a href="index.html">Dashboard style 1</a></li>
-										<li><a href="index2.html">Dashboard style 2</a></li>
+										<li><a href="index.html">Php</a></li>
+										<li><a href="index2.html">Java</a></li>
+										<li><a href="index2.html">Kotlin</a></li>
+										<li><a href="index2.html">Javascript</a></li>
+										<li><a href="index2.html">Ruby</a></li>
+										<li><a href="index2.html">Go</a></li>
+										<li><a href="index2.html">Swift</a></li>
+										<li><a href="index2.html">TypeScript</a></li>
 									</ul>
 								</div>
-								<div class="sitemap">
-									<h5 class="h5">Forms</h5>
-									<ul>
-										<li><a href="form-basic.html">Form Basic</a></li>
-										<li><a href="advanced-components.html">Advanced Components</a></li>
-										<li><a href="form-wizard.html">Form Wizard</a></li>
-										<li><a href="html5-editor.html">HTML5 Editor</a></li>
-										<li><a href="form-pickers.html">Form Pickers</a></li>
-										<li><a href="image-cropper.html">Image Cropper</a></li>
-										<li><a href="image-dropzone.html">Image Dropzone</a></li>
-									</ul>
-								</div>
+
 								<div class="sitemap">
 									<h5 class="h5">Invoice</h5>
 									<ul>
 										<li><a href="invoice.html">Invoice</a></li>
 									</ul>
 								</div>
-								<div class="sitemap">
-									<h5 class="h5">Chat Module</h5>
-									<ul>
-										<li><a href="chat.html">Chat</a></li>
-									</ul>
-								</div>
+
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="h5">Tables</h5>
+									<h5 class="h5">Databases</h5>
 									<ul>
-										<li><a href="basic-table.html">Basic Tables</a></li>
-										<li><a href="datatable.html">DataTables</a></li>
+										<li><a href="basic-table.html">MySQL</a></li>
+										<li><a href="datatable.html">Microsoft SQL Server</a></li>
+										<li><a href="datatable.html">Oracle Database</a></li>
+										<li><a href="datatable.html">PostgreSQL</a></li>
+										<li><a href="datatable.html">MongoDB</a></li>
+										<li><a href="datatable.html">MariaDB</a></li>
 									</ul>
 								</div>
-								<div class="sitemap">
-									<h5 class="h5">Calendar</h5>
-									<ul>
-										<li><a href="calendar.html">Calendar</a></li>
-									</ul>
-								</div>
-								<div class="sitemap">
-									<h5 class="h5">Icons</h5>
-									<ul>
-										<li><a href="font-awesome.html">FontAwesome Icons</a></li>
-										<li><a href="foundation.html">Foundation Icons</a></li>
-										<li><a href="ionicons.html">Ionicons Icons</a></li>
-										<li><a href="themify.html">Themify Icons</a></li>
-									</ul>
-								</div>
-								<div class="sitemap">
-									<h5 class="h5">Charts</h5>
-									<ul>
-										<li><a href="highchart.html">Highchart</a></li>
-										<li><a href="knob-chart.html">jQuery Knob</a></li>
-										<li><a href="jvectormap.html">jvectormap</a></li>
-									</ul>
-								</div>
+
+
+
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
@@ -112,32 +86,18 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<div class="sitemap">
-									<h5 class="h5">Additional Pages</h5>
+									<h5 class="h5">Operating Systems</h5>
 									<ul>
-										<li><a href="video-player.html">Video Player</a></li>
-										<li><a href="login.html">Login</a></li>
-										<li><a href="forgot-password.html">Forgot Password</a></li>
-										<li><a href="reset-password.html">Reset Password</a></li>
-										<li><a href="403.html">403</a></li>
-										<li><a href="404.html">404</a></li>
-										<li><a href="500.html">500</a></li>
+										<li><a href="video-player.html">Windows</a></li>
+										<li><a href="login.html">Linux</a></li>
+										<li><a href="forgot-password.html">MacOS</a></li>
+										<li><a href="reset-password.html">Ubuntu</a></li>
+										<li><a href="403.html">Android</a></li>
+										<li><a href="404.html">Unix</a></li>
+
 									</ul>
 								</div>
-								<div class="sitemap">
-									<h5 class="h5">Extra Pages</h5>
-									<ul>
-										<li><a href="blank.html">Blank</a></li>
-										<li><a href="contact-directory.html">Contact Directory</a></li>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="blog-detail.html">Blog Detail</a></li>
-										<li><a href="product.html">Product</a></li>
-										<li><a href="product-detail.html">Product Detail</a></li>
-										<li><a href="faq.html">FAQ</a></li>
-										<li><a href="profile.html">Profile</a></li>
-										<li><a href="gallery.html">Gallery</a></li>
-										<li><a href="pricing-table.html">Pricing Tables</a></li>
-									</ul>
-								</div>
+
 							</div>
 						</div>
 						<div class="row">

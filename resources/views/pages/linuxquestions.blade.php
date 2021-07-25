@@ -23,34 +23,20 @@
                 <div class="faq-wrap">
                     <h4 class="mb-20 h4 text-blue">Revision Q and A</h4>
                     <div id="accordion">
+
                         <div class="card">
                             <div class="card-header">
-                                <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
+                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
                                     What is Linux?
                                 </button>
                             </div>
-                            <div id="faq1" class="collapse show" data-parent="#accordion">
+                            <div id="faq2" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
                                     Linux is an operating system based on UNIX and was first introduced by Linus
                                     Torvalds.
                                     It is based on the Linux Kernel and can run on different hardware platforms
                                     manufactured by Intel, MIPS, HP, IBM, SPARC, and Motorola.
                                     Another popular element in Linux is its mascot, a penguin figure named Tux.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
-                                    What is the difference between UNIX and LINUX?
-                                </button>
-                            </div>
-                            <div id="faq2" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    Unix originally began as a propriety operating system from Bell Laboratories, which
-                                    later on spawned into different commercial versions.
-                                    On the other hand, Linux is free, open source and intended as a non-propriety
-                                    operating system for the masses.
                                 </div>
                             </div>
                         </div>
